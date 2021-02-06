@@ -12,12 +12,12 @@ const AboutUs = () => {
     <motion.div
       exit="exit"
       variants={pageAnimation}
-      inital="hidden"
+      initial="hidden"
       animate="show"
     >
       <AboutSection />;
       <ServicesSection />;
-      <FaqSection />
+      <FaqSection />;
     </motion.div>
   );
 };
