@@ -31,7 +31,7 @@ const MovieDetail = () => {
           animate="show"
         >
           <HeadLine>
-            <h1>{movie.title}</h1>
+            <h2>{movie.title}</h2>
             <img src={movie.mainImg} alt="movie" />
           </HeadLine>
           <Awards>
